@@ -1,47 +1,55 @@
 !! Color Scheme
-!special
-*.foreground:#00d4b8
-*.background:#010001
-*.cursorColor: #e9bc00
+! special
+*.foreground:   #c9e9ea
+*.background:   #25103b
+*.cursorColor:  #c9e9ea
 
-!black
-*.color0: #282a2e
-*color8: #9a8b97
+! black
+*.color0:       #5f4986
+*.color8:       #7f749f
 
-!red
-*.color1: #666967
-*color9: #00ff55
+! red
+*.color1:       #d5a8e3
+*.color9:       #e48d5e
 
-!green
-*.color2: #407257
-*.color10: #e9bc00
+! green
+*.color2:       #9c75dd
+*.color10:      #37f5d9
 
-!yellow
-*.color3: #d10688
-*.color11: #06d1a2
+! yellow
+*.color3:       #ed5838
+*.color11:      #c0c0dd
 
-!blue
-*.color4: #959323
-*.color12: #fb00ff
+! blue
+*.color4:       #654a96
+*.color12:      #e775f5
 
-!magenta
-*.color5: #130618
-*.color13: #00ddcc
+! magenta
+*.color5:       #625566
+*.color13:      #3f3442
 
-!cyan
-*.color6: #5e8d87
-*.color14: #f5ea06
+! cyan
+*.color6:       #a9d1df
+*.color14:      #f3e204
 
-!white
-*.color7: #34233a
-*.color15: #07eb44
+! white
+*.color7:       #726487
+*.color15:      #cbf6e9
 
 
 !! Appearance
-URxvt.font: xft:monospace:size=10
+URxvt.font: xft:Anonymous Pro:size=10:antialias=true
 URxvt.scrollBar: false
-URxvt.cursorUnderline: false
 URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.iso14755: false
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
-URxvt.url-launcher:       firefox
+URxvt.internalBorder: 3
+URxvt.geometry: 92x24
+URxvt.saveline: 2048
+URxvt.url-launcher: firefox
+
+!! Functions
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
