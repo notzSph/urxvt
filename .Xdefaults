@@ -1,0 +1,47 @@
+!! Color Scheme
+!special
+*.foreground:#00d4b8
+*.background:#010001
+*.cursorColor: #e9bc00
+
+!black
+*.color0: #282a2e
+*color8: #9a8b97
+
+!red
+*.color1: #666967
+*color9: #00ff55
+
+!green
+*.color2: #407257
+*.color10: #e9bc00
+
+!yellow
+*.color3: #d10688
+*.color11: #06d1a2
+
+!blue
+*.color4: #959323
+*.color12: #fb00ff
+
+!magenta
+*.color5: #130618
+*.color13: #00ddcc
+
+!cyan
+*.color6: #5e8d87
+*.color14: #f5ea06
+
+!white
+*.color7: #34233a
+*.color15: #07eb44
+
+
+!! Appearance
+URxvt.font: xft:monospace:size=10
+URxvt.scrollBar: false
+URxvt.cursorUnderline: false
+URxvt.cursorBlink: true
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.url-launcher:       firefox
