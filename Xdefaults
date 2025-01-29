@@ -1,0 +1,64 @@
+!! Color Scheme
+
+! special
+*.foreground:   #31f5b0
+*.background:   #06010f
+*.cursorColor:  #feea18
+
+! black
+*.color0:       #10060f
+*.color8:       #776e71
+
+! red
+*.color1:       #ef6155
+*.color9:       #ef6155
+
+! green
+*.color2:       #48b685
+*.color10:      #11e87b
+
+! yellow
+*.color3:       #ff6800
+*.color11:      #fec418
+
+! blue
+*.color4:       #06efa5
+*.color12:      #f93aef
+
+! magenta
+*.color5:       #815ba4
+*.color13:      #815ba4
+
+! cyan
+*.color6:       #5bc4bf
+*.color14:      #ea7fc7
+
+! white
+*.color7:       #714b73
+*.color15:      #e9e6dd
+
+
+!! Appearance
+
+URxvt.font: xft:Anonymous pro:size=10:antialias=true
+
+URxvt.scrollBar: false
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+
+URxvt.iso14755: false
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+
+URxvt.internalBorder: 2
+URxvt.geometry: 92x24
+URxvt.saveline: 2048
+
+URxvt.transparent: True
+URxvt.shading: 8 
+
+!! Functions
+URxvt.url-launcher: firefox
+
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
